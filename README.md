@@ -42,12 +42,12 @@ Some entries may only have the first two components. This may be because:
 
 ## Parameters to Specify
 Most of these parameters have already been assigned a value, but you can change them to suit your preferences:
-`game_file`: The directory of the game file.  
-`exclude_letters`: Letters which you do NOT want to use. These words will be automatically ignored if encountered in the word bank.  
-`move_limit`: a limit for the number of game moves you want to output. For a value of 10000, it will take around 1-2 minutes to start outputting the possible moves
-`word_length_threshold`: If the longest word that can be played has x characters, then words shorter than (x-word_length_threshold) characters in the word bank will be ignored.  
-`sort_by`: How to rank the possible words and choices outputted by the program. `sort_by = 0`: sort according to the number of tiles the player can occupy. `sort_by = 2`: sort according to the number of SAFE tiles the player can occupy.  
-`word_bank_directory`: The directory of the word bank through which the program searches.   
-`alert_freq_1`: How frequently to output the program's progress when extracting data. Higher values denote lower frequency.  
-`alert_freq_2`: How frequently to output the program's progress when calculating possible moves. Higher values denote lower frequency.  
-`alert_freq_3`: How frequently to output the program's progress when sorting possible moves. Higher values denote lower frequency.  
+- `game_file`: The directory of the game file.  
+- `exclude_letters`: Letters which you do NOT want to use. These words will be automatically ignored if encountered in the word bank.  
+- `move_limit`: a limit for the number of game moves you want to output. For a value of 10000, it will take around 1-2 minutes to start outputting the possible moves. 
+- `word_length_threshold`: If the longest word that can be played has x characters, then words shorter than (x-word_length_threshold) characters in the word bank will be ignored.  
+- `sort_by`: How to rank the possible words and choices outputted by the program. `sort_by = 0`: sort according to the number of tiles the player can occupy. `sort_by = 2`: sort according to the number of SAFE tiles the player can occupy.  
+- `word_bank_directory`: The directory of the word bank through which the program searches.   
+- `alert_freq_1`: How frequently to output the program's progress when extracting data. Higher values denote lower frequency.  
+- `alert_freq_2`: How frequently to output the program's progress when calculating possible moves. Higher values denote lower frequency.  
+- `alert_freq_3`: How frequently to output the program's progress when sorting possible moves. Higher values denote lower frequency.  
