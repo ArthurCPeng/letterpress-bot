@@ -21,10 +21,10 @@ The output is printed in the console. The main output consists of a series of en
 3. A list of tuples `[(x1, y1, letter1), (x2, y2, letter2) ... (xn, yn, lettern)]` describing which tile to choose for each letter in the word.
 
 ### The Four-Element Game Stats Tuple
-`me_occupied`: the number of tiles the player occupies
-`enemy_occupied`: the number of tiles the enemy occupies
-`me_safe`: the number of tiles the player secures (i.e. cannot be flipped by opponent)
-`enemy_safe`: the number of tiles the enemy secures (i.e. cannot be flipped by player)
+`me_occupied`: the number of tiles the player occupies. 
+`enemy_occupied`: the number of tiles the enemy occupies. 
+`me_safe`: the number of tiles the player secures (i.e. cannot be flipped by opponent). 
+`enemy_safe`: the number of tiles the enemy secures (i.e. cannot be flipped by player). 
 
 For example, part of the output using the demo game file will look like:
 > horgan: (6, 5, 2, 1), \[(5, 5, 'h'), (2, 2, 'o'), (4, 5, 'r'), (4, 4, 'g'), (5, 4, 'a'), (5, 3, 'n')\]  
