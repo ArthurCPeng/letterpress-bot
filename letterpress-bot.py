@@ -1,5 +1,5 @@
 #Set the game file. 
-file = open("game267_dkdon.txt","r")
+file = open("game.txt","r")
 
 #Enter letters which you do NOT want to use
 exclude_letters = []
