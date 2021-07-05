@@ -1,5 +1,6 @@
-#Set the game file. 
-file = open("game.txt","r")
+#Set the game file.
+game_file = "game.txt"
+file = open(game_file,"r")
 
 #Enter letters which you do NOT want to use
 exclude_letters = []
