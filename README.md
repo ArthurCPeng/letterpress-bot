@@ -17,8 +17,8 @@ The game file must be a text file with the following formatting:
 ## Program Output
 The output is printed in the console. The main output consists of a series of entries, with each entry describing one particular move. Each entry has three components:
 1. The word to be played
-2. A four-element tuple `\[me_occupied, enemy_occupied, me_safe, enemy_safe\]` denoting the game stats after you play this move
-3. A list of tuples `\[(x1, y1, letter1), (x2, y2, letter2) ... (xn, yn, lettern)\]` describing which tile to choose for each letter in the word.
+2. A four-element tuple `[me_occupied, enemy_occupied, me_safe, enemy_safe]` denoting the game stats after you play this move
+3. A list of tuples `[(x1, y1, letter1), (x2, y2, letter2) ... (xn, yn, lettern)]` describing which tile to choose for each letter in the word.
 
 ### The Four-Element Game Stats Tuple
 `me_occupied`: the number of tiles the player occupies
@@ -27,9 +27,9 @@ The output is printed in the console. The main output consists of a series of en
 `enemy_safe`: the number of tiles the enemy secures (i.e. cannot be flipped by player)
 
 For example, part of the output using the demo game file will look like:
-> horgan: (6, 5, 2, 1), \[(5, 5, 'h'), (2, 2, 'o'), (4, 5, 'r'), (4, 4, 'g'), (5, 4, 'a'), (5, 3, 'n')\]
-> horgan: (6, 4, 2, 0), \[(5, 5, 'h'), (4, 1, 'o'), (4, 5, 'r'), (4, 4, 'g'), (5, 4, 'a'), (5, 3, 'n')\]
-> flyted: (6, 8, 2, 2), \[(1, 2, 'f'), (1, 4, 'l'), (1, 3, 'y'), (2, 3, 't'), (1, 5, 'e'), (2, 5, 'd')\]
-> herald: (6, 7, 2, 2), \[(5, 5, 'h'), (1, 5, 'e'), (4, 5, 'r'), (5, 4, 'a'), (1, 4, 'l'), (2, 5, 'd')\]
-> hareld: (6, 7, 2, 2), \[(5, 5, 'h'), (5, 4, 'a'), (4, 5, 'r'), (1, 5, 'e'), (1, 4, 'l'), (2, 5, 'd')\]
-> hanger: (6, 5, 2, 1), \[(5, 5, 'h'), (5, 4, 'a'), (5, 3, 'n'), (4, 4, 'g'), (2, 4, 'e'), (4, 5, 'r')\]
+> horgan: (6, 5, 2, 1), \[(5, 5, 'h'), (2, 2, 'o'), (4, 5, 'r'), (4, 4, 'g'), (5, 4, 'a'), (5, 3, 'n')\]  
+> horgan: (6, 4, 2, 0), \[(5, 5, 'h'), (4, 1, 'o'), (4, 5, 'r'), (4, 4, 'g'), (5, 4, 'a'), (5, 3, 'n')\]  
+> flyted: (6, 8, 2, 2), \[(1, 2, 'f'), (1, 4, 'l'), (1, 3, 'y'), (2, 3, 't'), (1, 5, 'e'), (2, 5, 'd')\]  
+> herald: (6, 7, 2, 2), \[(5, 5, 'h'), (1, 5, 'e'), (4, 5, 'r'), (5, 4, 'a'), (1, 4, 'l'), (2, 5, 'd')\]  
+> hareld: (6, 7, 2, 2), \[(5, 5, 'h'), (5, 4, 'a'), (4, 5, 'r'), (1, 5, 'e'), (1, 4, 'l'), (2, 5, 'd')\]  
+> hanger: (6, 5, 2, 1), \[(5, 5, 'h'), (5, 4, 'a'), (5, 3, 'n'), (4, 4, 'g'), (2, 4, 'e'), (4, 5, 'r')\]  
